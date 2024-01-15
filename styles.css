@@ -235,4 +235,8 @@ footer p {
         font-size: 1rem;
         align-items: flex-start;
     }
+
+    #header .logo {
+        padding-left: 30px;
+    }
 }
