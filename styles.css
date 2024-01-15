@@ -216,13 +216,23 @@ footer p {
 }
 
 @media screen and (max-width: 580px) {
+    #header {
+        padding: initial;
+        position: static;
+    }
+
     #header .logo svg {
-        width: 180px;
-        height: 180px;
+        width: 100px;
+        height: 100px;
     }
 
     .section-title {
         writing-mode: initial;
         text-orientation: initial;
+    }
+
+    #nav-bar ul {
+        font-size: 1rem;
+        align-items: flex-start;
     }
 }
