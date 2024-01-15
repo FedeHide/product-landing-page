@@ -216,16 +216,12 @@ footer p {
 }
 
 @media screen and (max-width: 580px) {
-    #header {
-        position: static;
-    }
-
     #header .logo svg {
         width: 180px;
         height: 180px;
     }
 
-    .hero-title h2, .section-title {
+    .section-title {
         writing-mode: initial;
         text-orientation: initial;
     }
