@@ -45,13 +45,13 @@ a {
     height: 280px;
 }
 
-#header-image {
+#header-img {
     display: none;
 }
 
 #nav-bar ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 35vw;
     font-size: 1.8rem;
     letter-spacing: 0.8rem;
@@ -81,7 +81,7 @@ a {
     width: 5vw;
 }
 
-.hero-title h2, .section-title h2 {
+.hero-title h2, .section-title {
     z-index: 100;
     color: var(--font-secondary);
     font-size: 1.8vw; /* Cambiado de rem a vw para hacerlo más sensible al tamaño de la pantalla */
@@ -124,3 +124,109 @@ a {
     width: 80vw;
 }
 
+/* main section */
+
+.section-container {
+    position: relative;
+}
+
+.section-container img {
+    width: 100%;
+}
+
+.section-title {
+    position: absolute;
+    user-select: none;
+}
+
+.section-left {
+    top: 8vh;
+    left: 4vw;
+}
+
+.section-right {
+    top: 5vh;
+    right: 4vw;
+}
+
+
+/* form section */
+
+form {
+display: flex;
+}
+
+footer p {
+    font-size: 1.8rem;
+    color: var(--font-secondary);
+    margin-bottom: 30px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color: var(--header-background);
+}
+
+
+.email-form input {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.submit-btn input {
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.submit-btn input:hover {
+    background-color: #fa709a;
+}
+
+/* media queries */
+
+@media screen and (max-width: 900px) {
+    #nav-bar ul {
+        flex-direction: column;
+        font-size: 1.2rem;
+        align-items: flex-end;
+    }
+
+    #nav-bar ul li {
+        padding: 5px;
+        width: fit-content;
+    }
+
+    .hero-title h2, .section-title {
+        letter-spacing: 1.4rem;
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #header {
+        position: static;
+    }
+
+    #header .logo svg {
+        width: 180px;
+        height: 180px;
+    }
+
+    .hero-title h2, .section-title {
+        writing-mode: initial;
+        text-orientation: initial;
+    }
+}
