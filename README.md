@@ -1,6 +1,6 @@
 # Handcraft Guitars | freeCodeCamp
 
-### Check the site [Here](https://fedehide.github.io/product-landing-page/ " Handcraft Guitars")
+### Check the site [Here](https://product-landing-page.vercel.app " Handcraft Guitars")
 
 ------------
 
