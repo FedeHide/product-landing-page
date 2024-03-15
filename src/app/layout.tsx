@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 	title: 'Handcraft Guitars',
 	description: 'This is a fake product landing page, a freecodecamp assignment',
 	openGraph: {
-		url: 'https://product-landing-page.vercel.app',
+		url: 'https://product-landing-page-jet.vercel.app/',
 		type: 'website',
 		title: 'Handcraft Guitars',
 		description: 'This is a fake product landing page, a freecodecamp assignment',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		site: 'https://product-landing-page.vercel.app',
+		site: 'https://product-landing-page-jet.vercel.app/',
 	},
 }
 
