@@ -14,7 +14,7 @@ This project is a fake product landing page, a freecodecamp assignment.
 
 ------------
 
-[![handcraft-guitars.png](https://i.postimg.cc/mkFjxV1X/handcraft-guitars.png)](https://product-landing-page-jet.vercel.app/)
+[![handcraft-guitars.webp](https://raw.githubusercontent.com/FedeHide/product-landing-page/main/public/assets/handcraft-guitars.webp)](https://product-landing-page-jet.vercel.app/)
 
 
 > This is a [freecodecamp](http://https://www.freecodecamp.org/learn/ "freecodecamp") assignment. All the projects and contact details given are **not real**.

@@ -27,17 +27,26 @@ export default function Sections(): JSX.Element {
 				<article className="section-container" id="01">
 					<h2 className="section-title section-right">01 ECLIPSE</h2>
 					{/* eslint-disable-next-line */}
-					<img src="https://i.postimg.cc/fWKzBfHM/gt1.jpg" alt="foto guitarra" />
+					<img
+						src="https://raw.githubusercontent.com/FedeHide/product-landing-page/main/public/assets/gt1.webp"
+						alt="foto guitarra"
+					/>
 				</article>
 				<article className="section-container" id="02">
 					<h2 className="section-title section-left">02 VIPER</h2>
 					{/* eslint-disable-next-line */}
-					<img src="https://i.postimg.cc/85dp8RNB/gt2.jpg" alt="foto guitarra" />
+					<img
+						src="https://raw.githubusercontent.com/FedeHide/product-landing-page/main/public/assets/gt2.webp"
+						alt="foto guitarra"
+					/>
 				</article>
 				<article className="section-container" id="03">
 					<h2 className="section-title section-left">03 HORIZON</h2>
 					{/* eslint-disable-next-line */}
-					<img src="https://i.postimg.cc/Dyw2D4DL/gt3.jpg" alt="foto guitarra" />
+					<img
+						src="https://raw.githubusercontent.com/FedeHide/product-landing-page/main/public/assets/gt3.webp"
+						alt="foto guitarra"
+					/>
 				</article>
 			</section>
 		</>
